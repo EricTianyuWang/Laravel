@@ -33,15 +33,18 @@
         }
 
     </style>
-    @yield('content')
-    <div>
+        <div>
         <div>
         <ul>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/about">About</a></li>
             <li><a href="/">Homepage</a>
+            <li><a href="/about">About</a></li>
+            <li><a href="/menu">Menu</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/review">Review</a></li>
         </ul>
         </div>
     </div>
+    @yield('content')
+
     </body>
 </html>

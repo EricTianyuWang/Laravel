@@ -10,7 +10,4 @@ h1 {
 </style>
 <h1>Yummy Food Restaurant</h1>
 
-<ul>
-</ul>
-
 @endsection

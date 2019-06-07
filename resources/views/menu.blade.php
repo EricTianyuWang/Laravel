@@ -1,10 +1,7 @@
-
 @extends('layout')
 
 
-@section('title')
-About Us
-@endsection
+@section('title','Contact Us')
 
 @section('content')
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -15,7 +12,5 @@ h1 {
 </style>
 
 <h1>Yummy Food Restaurant</h1>
-<p>We are awesome</p>
-
 
 @endsection
