@@ -4,13 +4,7 @@
 @section('title','Contact Us')
 
 @section('content')
-<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-<style>
-h1 {
-    font-family: 'Montserrat';font-size: 36px;
-}
-</style>
 
-<h1>Yummy Food Restaurant</h1>
+<h1>Contact Form</h1>
 
 @endsection
