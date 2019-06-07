@@ -31,3 +31,11 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/review', function() {
+    return view('review');
+});
+
+Route::get('/menu', function() {
+    return view('menu');
+});
+
