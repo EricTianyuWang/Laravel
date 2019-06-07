@@ -3,6 +3,6 @@
 
 @section('content')
 
-<h1>Yummy Food Restaurant</h1>
+<h1>Yummy Food Restaurant Potato</h1>
 
 @endsection
