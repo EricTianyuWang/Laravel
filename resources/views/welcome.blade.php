@@ -2,6 +2,7 @@
 
 
 @section('content')
+
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 <style>
 h1 {
@@ -9,5 +10,6 @@ h1 {
 }
 </style>
 <h1>Yummy Food Restaurant</h1>
+
 
 @endsection
