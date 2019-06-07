@@ -40,7 +40,7 @@
             <li><a href="/about">About</a></li>
             <li><a href="/menu">Menu</a></li>
             <li><a href="/contact">Contact</a></li>
-            <li><a href="/review">Review</a></li>
+            <li><a href="/review/create">Review</a></li>
         </ul>
         </div>
     </div>
