@@ -28,14 +28,16 @@ h1 {
 
 <section class="container grey-text">
     <h4 class="center">Leave a Message!</h4>
+
     <form action="{{url('review')}}" method="post" class="white">
     @csrf
         <label>Your First Name:</label>
         <input type="text" name="first_name">
+        <br>
         <label>Your Review:</label>
-        <input type="text" name="message">
+        <textarea name="message" rows="10" cols="30"></textarea>
         <div class="center">
-            <input type="submit" name="submit" value="submit" class="btn brand z-depth-0">
+            <input type="submit" name="submit" value="Submit" class="btn brand z-depth-0">
         </div>
     </form>
    <h3>View Reviews</h3>

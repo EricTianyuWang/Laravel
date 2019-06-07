@@ -32,11 +32,15 @@
             background-color: #111111;
         }
 
-    </style>
+        body{
+            background: #b1bfa8
+        }
+            </style>
         <div>
+        <header>
         <div>
         <ul>
-            <li><a href="/">Homepage</a>
+            <li><a href="/">Home</a>
             <li><a href="/about">About</a></li>
             <li><a href="/menu">Menu</a></li>
             <li><a href="/contact">Contact</a></li>
@@ -44,6 +48,7 @@
         </ul>
         </div>
     </div>
+    </header>
     @yield('content')
 
     </body>
