@@ -10,25 +10,19 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+//our routes
+Route::get('/', 'PagesController@home');
+Route::get('/contact', 'PagesController@contact');
+Route::get('/about', 'PagesController@about');
 
-Route::get('/', function () {
-    $tasks = [
-        'Go to the store',
-        'Go to the market',
-        'Go to work',
-        'Go to the concert'
-    ];
-    return view('welcome',[
-        'tasks' => $tasks,
-        'foo' => request('title')
-    ]);
+Auth::routes();
+
+Route::get('/review', function() {
+    return view('review');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/menu', function() {
+    return view('menu');
 });
 
-Route::get('/about', function () {
-    return view('about');
-});
-
+Route::resource('review','ReviewController');
