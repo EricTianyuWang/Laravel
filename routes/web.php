@@ -17,4 +17,15 @@ Route::get('/about', 'PagesController@about');
 
 Auth::routes();
 
+<<<<<<< HEAD
 Route::get('/home', 'HomeController@index')->name('home');
+=======
+Route::get('/review', function() {
+    return view('review');
+});
+
+Route::get('/menu', function() {
+    return view('menu');
+});
+
+>>>>>>> c940dc7a9ff81d55d7410bfd241d783edb63db93
