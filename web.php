@@ -11,16 +11,9 @@
 |
 */
 
-<<<<<<< HEAD
 Route::get('/', 'PagesController@home');
 Route::get('/contact', 'PagesController@contact');
 Route::get('/about', 'PagesController@about');
-=======
-Route::get('/', function () {
-    return view('welcome',[
-        'foo' => 'happy']);
-});
->>>>>>> 69237768a4559c913bd8b3c79f0f630496fef06f
 
 Auth::routes();
 
