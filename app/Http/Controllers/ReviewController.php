@@ -25,6 +25,7 @@ class ReviewController extends Controller
      */
     public function create()
     {
+
         $reviews = DB::select('select * from reviews');
         return view('review',['reviews'=>$reviews]);
     }

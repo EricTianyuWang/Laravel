@@ -44,20 +44,14 @@ return [
         ],
 
         'mysql' => [
-            'read' => [
-                'host' => '192.168.1.1',
-            ],
-            'write' => [
-                'host' => '196.168.1.2'
-            ],
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'laravel'),
             'username' => env('DB_USERNAME', 'root'),
-            'password' => env('DB_PASSWORD', ''),
-            'unix_socket' => env('DB_SOCKET', ''),
+            'password' => env('DB_PASSWORD','BG_soccer75220'),
+            'unix_socket' => env('DB_SOCKET'),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
             'prefix' => '',

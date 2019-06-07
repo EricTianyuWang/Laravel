@@ -35,6 +35,7 @@ h1 {
         <input type="text" name="first_name">
         <br>
         <label>Your Review:</label>
+        <br>
         <textarea name="message" rows="10" cols="30"></textarea>
         <div class="center">
             <input type="submit" name="submit" value="Submit" class="btn brand z-depth-0">
