@@ -8,8 +8,10 @@
 h1 {
     font-family: 'Montserrat';font-size: 36px;
 }
+.center {
+  display: block;
+  margin: auto;
+}
 </style>
-<h1>Yummy Food Restaurant</h1>
-
 
 @endsection
