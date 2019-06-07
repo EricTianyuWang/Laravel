@@ -25,3 +25,4 @@ Route::get('/menu', function() {
     return view('menu');
 });
 
+Route::resource('review','ReviewController');
