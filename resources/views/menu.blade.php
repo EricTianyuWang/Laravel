@@ -55,19 +55,26 @@
     </ul>
     <br />
     <h3>Food</h3>
-    <p>Breakfast</p>
+    <p>Breakfast (until noon)</p>
     <ul class="menu">
         <li>Bagel and Lox</li>
         <li>Avocado Toast</li>
         <li>Chicken and Waffles</li>
         <li>Eggs Your Way!</li>
     </ul>
-    <p>Lunch</p>
+    <p>Lunch (after 11 AM)</p>
     <ul class="menu">
         <li>Brock's BLT</li>
         <li>Eric's Enchilada</li>
         <li>Kristen's Kale and Quinoa Salad</li>
         <li>Camille's Crispy Chicken Sandwich</li>
+    </ul>
+    <p>Sides (ALL DAY woo!)</p>
+    <ul class="menu">
+        <li>Fries</li>
+        <li>Homefries</li>
+        <li>Fruit Cup</li>
+        <li>Toast with Jam and Butter</li>
     </ul>
 </div>
 @endsection
