@@ -11,26 +11,25 @@ About Us
 
 <style>
 h1 {
-    font-family: 'Montserrat';font-size: 36px;
+    font-family: 'Book Antiqua','Montserrat';
+    font-size: 40px;
+    text-align: center
 }
 .center {
   display: block;
   margin: auto;
 }
 p{
-    text-align: center
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Candara', 'Calibri', 'Gill Sans'
 }
 </style>
 
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-<style>
-h1 {
-    font-family: 'Montserrat';font-size: 36px;
-}
-</style>
 
 
-<h1 style="text-align: center">Rory's Coffee and Coding</h1>
+<h1>Rory's Coffee and Coding</h1>
 <p>Thank you for visiting out site. We are located at <b>230 Hillside Lane, Charlottesville, VA 22903</b>.</p>
 
 <!-- <body style="background-image:url('https://images.pexels.com/photos/2159065/pexels-photo-2159065.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940');">
